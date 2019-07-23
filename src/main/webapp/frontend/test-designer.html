@@ -1,0 +1,36 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/vaadin-ordered-layout/src/vaadin-vertical-layout.html">
+<link rel="import" href="bower_components/vaadin-button/src/vaadin-button.html">
+<link rel="import" href="./styles.html">
+
+
+
+<dom-module id="test-designer">
+    <template>
+		<style include="shared-styles">
+            :host {
+                display: block;
+            }
+        </style>
+		<vaadin-vertical-layout id="vaadinVerticalLayout" style="width: 100%; height: 100%;">
+	 		<vaadin-button id="btnTest">
+	  			Teste bgg
+			</vaadin-button>
+		</vaadin-vertical-layout>
+	</template>
+
+    <script>
+        class TestDesigner extends Polymer.Element {
+            static get is() {
+                return 'test-designer';
+            }
+
+            static get properties() {
+                return {
+                    // Declare your properties here.
+                };
+            }
+        }
+        customElements.define(TestDesigner.is, TestDesigner);
+    </script>
+</dom-module>

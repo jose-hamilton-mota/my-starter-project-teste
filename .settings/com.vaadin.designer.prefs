@@ -1,0 +1,6 @@
+alwaysUseUtf8=true
+defaultJavaCompanionFolder=src/main/java
+defaultTemplateFolder=src/main/webapp/frontend
+eclipse.preferences.version=1
+serverAddress=10.93.15.11
+serverPort=53759
